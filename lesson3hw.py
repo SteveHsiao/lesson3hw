@@ -5,7 +5,7 @@ playagain = True
 while playagain:
     num = random.randint(1,20)
     count = 0
-    print(num)
+    print("You have only '5' chance to guess number")
 
     while count < 5:
         number = int(input("please enter 1~20 :"))
